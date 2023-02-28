@@ -1,0 +1,70 @@
+.product-list {
+    counter-reset: li; 
+    list-style: none; 
+    font: 14px "Trebuchet MS", "Lucida Sans";
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.product-list{
+    margin-left: 50px;
+    display: inline-block;
+}
+.product-list a {
+        display: inline-flex;
+        position: relative;
+        display: block;
+        padding: .4em .4em .4em 2em;
+        margin: .5em 0;
+        background: #DAD2CA;
+        color: #444;
+        text-decoration: none;
+        border-radius: .3em;
+        transition: .3s ease-out;
+}
+.product-list a:hover {background: #E9E4E0;}
+.product-list a:hover:before {transform: rotate(360deg);}
+.product-list a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #8FD4C1;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+#name{
+    height: 25px;
+    width: 200px;
+    border: 1px solid  #817b74;
+    border-radius: 7px;
+    background-color:  #ffffff;
+    outline: none;
+}
+#price{
+    height: 25px;
+    width: 200px;
+    border: 1px solid  #817b74;
+    border-radius: 7px;
+    background-color:  #ffffff;
+    outline: none;
+}
+.prodct-form{
+    margin-left: 35px;
+}
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0.5px solid #817b74;;
+    background-color: #ffffff;
+}
+
+
