@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="wrraper">
+        <section class="search-section">
+            <div class="cearchContent">
+                <div class="submit">
+                    <form>
+                        <h1 id="lable">Enter ID post:</h1>
+                        <input type="text" id="post-id" name="post-id">
+                        <input type="submit" value="Get" id="submit">
+                    </form>
+                </div>
+
+                <div class="delete-post">
+                    <button id="delete">Delete <span>last</span></button>
+                </div>
+
+                <div class="saveSubmit">
+                    <p>Save UL</p>
+                    <button id="save" class="save"><p id="fly">✔</p></button>
+                </div>
+                
+            </div>
+            <div class="listUl">
+            </div>
+        </section>
+    </div>
+
+
+    <div class="wrraper">
+        <section class="gameContent" style="margin-top: 50px;">
+            <div class="searchId">
+
+                <div class="submit">
+                    <form id="form2">
+                        <h1 id="lable">Enter ID photo:</h1>
+                        <input type="text" id="input">
+                        <button id="btn2">GET</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="ruels">
+                <p>Правила игры:</p>
+                <ol>
+                    <li>Вводите 3 любых Id "ПО ОЧЕРЕДИ" фотографий </li>
+                    <li>После каждого Id нажимаете на кнопку Get</li>
+                    <li>Затем у вас бедет три фото и их Id</li>
+                    <li>Вы нажимаете на кнопку Mix photo</li>
+                    <li>Фото скрываються и перемешиваются внутри</li>
+                    <li>Вы должны отгадать где сейчас фото с "ПЕРВЫМ" Id котороый вы ввели</li>
+                    <li>После каждого "ВЕРНОГО" нажмите на фото, они снова перемешиваются</li>
+                    <li>Когда вы наберете 5 очков вы получаете награду</li>
+                </ol>
+            </div>
+
+            <div class="point-div"><p>Your points:</p><h4 id="point">0</h4></div>
+            <div class="photo">
+                
+            </div>
+            <div class="mix">
+                <button id="btnMix">Mix photo</button>
+            </div>
+        </section>
+    </div>
+    <script src="script2.js"></script>
+    
+</body>
+</html>
