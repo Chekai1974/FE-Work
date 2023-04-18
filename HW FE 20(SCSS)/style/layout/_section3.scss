@@ -1,0 +1,98 @@
+.section3-body{
+    // width: 100%;
+    background-color: $silver-bg-card;
+    .section3-content{
+        display: flex;
+        padding: 150px 90px 140px 40px;
+        .author-info{
+            margin-left: 150px;
+            margin-top: 70px;
+            h2{
+                font-family: 'Cardo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 42px;
+                line-height: 50px;
+                text-transform: capitalize;
+                color: $blue-bg-title-text;
+            }
+            .big-line{
+                margin-top: 23px;
+                margin-bottom: 33px;
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 19px;
+                line-height: 34px;
+                color: $silver-text;
+            }
+            .book-points{
+                display: flex;
+                margin-top: 34px;
+                margin-bottom: 55px;
+                .point{
+                    padding-top: 10px;
+                    h2{
+                        font-family: 'Cardo';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 54px;
+                        line-height: 77px;
+                        color: $blue-bg-title-text;
+                    }
+                    p{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 22px;
+                        color: $silver-text;
+                    }
+                }
+                #point1{
+                    border-right: 1px solid $yellow-text-btn;
+                    padding-right: 30px;
+                }
+                #point2{
+                    margin-left: 37px;
+                    margin-right: 55px;
+                }
+                #point3{
+                    border-left: 1px solid $yellow-text-btn;
+                    padding-left: 37px;
+                }
+                
+            }
+            .qrcode{
+                background-color: $blue-bg-title-text;
+                display: flex;
+                padding: 15px 20px;
+                gap: 40px;
+                align-items: center;
+                width: 484px;
+                .qrcode-text{
+                   p{
+                    margin-top: 10px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.19px;
+                    color: $light-blue-text;
+                }
+                    #name{
+                        color: $yellow-text-btn;
+                        font-family: 'Cardo';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 26px;
+                    } 
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.button-yellow{
+    background-color: $yellow-text-btn;
+    cursor: pointer;
+    width: 222px;
+    height: 66px;
+    border-radius: 2px;
+    border: none;
+    color: $blue-bg-title-text;
+    text-align: center;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;  
+    letter-spacing: 0.57px;
+    text-transform: capitalize;
+}

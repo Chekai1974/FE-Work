@@ -1,0 +1,66 @@
+.section7-body{
+    // width: 100%;
+    background-color: $silver-bg-card;
+    .section8-content{
+        padding: 126px 70px 150px 70px;
+        h1{
+            text-align: center;
+            font-family: 'Cardo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 50px;
+            text-transform: capitalize;
+            color: $blue-bg-title-text;
+        }
+        .big-line{
+            margin: 0 auto;
+            margin-top: 23px;
+            margin-bottom: 70px;
+        }
+        .people{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            .human{
+                background-color: white;
+                width: 420px;
+                .human-text{
+                    padding: 0px 30px 30px 30px;
+                    h4 {
+                        margin-top: 25px;
+                    
+                        font-family: 'Cardo';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 34px;
+                        letter-spacing: 0.24px;
+                        color: $blue-bg-title-text;
+                    }
+                    
+                    p {
+                        margin-top: 19px;
+                        margin-bottom: 12px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 19px;
+                        line-height: 30px;
+                        color: $silver-text;
+                        }
+                    
+                    h6 {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: $blue-bg-title-text;
+                        text-align: end;
+                    }
+                }
+            }
+        }
+    }
+}

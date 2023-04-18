@@ -1,0 +1,129 @@
+.section2-body{
+    width: 100%;
+    background-color: $white-bg;
+    .section2-content{
+        padding: 126px 80px 150px 80px;
+        
+        .title-section2{
+            display: block;
+            align-items: center;
+            text-align: center;
+            h1{
+                font-family: 'Cardo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 42px;
+                line-height: 50px;
+                text-align: center;
+                text-transform: capitalize;
+                color: $blue-bg-title-text;
+            }
+            div{
+                margin: 0 auto;
+                margin-top: 28px;
+                background-color: $yellow-text-btn;
+                width: 50px;
+                height: 3px;
+            }
+        }
+        .example-books{
+            margin-top: 70px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 50px;
+            .first-book{
+                display: flex;
+                .text-book{
+                    margin-left: 30px;
+                    margin-top: 60px;
+                    h2{
+                        font-family: 'Cardo';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 38px;
+                        letter-spacing: 0.32px;
+                        color: $blue-bg-title-text;
+                    }
+                    h3{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 21px;
+                        line-height: 33px;
+                        color: $yellow-text-btn;
+                    }
+                    p{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 19px;
+                        line-height: 28px;
+                        color: $silver-text;
+                    }
+                    div{
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        p{
+                            font-family: 'Cardo';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: $blue-bg-title-text;
+                            margin-left: 10px;
+                        }
+                    }
+                    
+                }
+            }
+            .second-book{
+                display: flex;
+                .text-book{
+                    margin-left: 30px;
+                    margin-top: 60px;
+                    h2{
+                        font-family: 'Cardo';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 38px;
+                        letter-spacing: 0.32px;
+                        color: $blue-bg-title-text;
+                    }
+                    h3{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 21px;
+                        line-height: 33px;
+                        color: $yellow-text-btn;
+                    }
+                    p{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 19px;
+                        line-height: 28px;
+                        color: $silver-text;
+                    }
+                    div{
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        p{
+                            font-family: 'Cardo';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: $blue-bg-title-text;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

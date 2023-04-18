@@ -1,0 +1,24 @@
+.big-circle{
+    background-color: $yellow-text-btn;
+    color: $blue-bg-title-text;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+.medium-circle {
+    background-color: $yellow-text-btn;
+    color: $blue-bg-title-text;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: none;
+}
+.small-circle {
+    background-color: $yellow-text-btn;
+    color: $blue-bg-title-text;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: none;
+}

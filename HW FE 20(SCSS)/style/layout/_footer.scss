@@ -1,0 +1,83 @@
+.footer-body{
+    width: 100%;
+    background-color: $blue-bg-title-text;
+    .footer-content{
+        padding: 92px 140px 60px 70px;
+        display: flex;
+        gap: 90px;
+        h3{
+            font-family: 'Cardo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+            letter-spacing: 0.384px;
+            color: $default-text;
+            margin-bottom: 24px;
+        }
+        p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 31px;
+            letter-spacing: 0.18px;
+
+            color: $light-blue-text;
+        }
+        .sosial-media{
+            .footer-links{
+                margin-top: 21px;
+                display: flex;
+                gap: 10px;
+            }
+        }
+        .explore{
+            .ex{
+                display: flex;
+                margin-bottom: 10px;
+                align-items: center;
+                gap:5px;
+                p{
+                    margin-left: 5px;
+                }
+            }
+        }
+        .utility-pages{
+            .up{
+                display: flex;
+                margin-bottom: 10px;
+                align-items: center;
+                gap: 5px;
+                p {
+                    margin-left: 5px;
+                }
+            }
+        }
+        .keep-in-touch{
+            span{
+                font-family: 'Cardo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                letter-spacing: 0.36px;
+                color: $default-text;
+            }
+            .address{
+                display: flex;
+                gap: 28px;
+            }
+            .mail{
+                margin-top: 28px;
+                margin-bottom: 28px;
+                display: flex;
+                gap: 54px;
+            }
+            .phone{
+                display: flex;
+                gap: 44px;
+            }
+        }
+    }
+}

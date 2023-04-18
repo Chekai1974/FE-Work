@@ -1,0 +1,63 @@
+.section6-body{
+    // width: 100%;
+    background-color: $white-bg;
+    .section6-content{
+        padding: 136px 0px 126px 70px;
+        h1{
+
+            font-family: 'Cardo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 50px;
+            text-align: center;
+            text-transform: capitalize;
+            color: $blue-bg-title-text;
+            text-align: center;
+        }
+        .big-line{
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 70px;
+        }
+        .study{
+            display: flex;
+            align-items: center;
+            .steps{
+                display: grid;
+                grid-template-columns: repeat(2,303px);
+                grid-template-rows: repeat(2,272px);
+                gap: 30px;
+                margin-right: 90px;
+                .step{
+                    padding: 30px 0px 26px 30px;
+                    background-color: $silver-bg-card;
+                    .big-circle{
+                        .num{
+                            font-family: 'Cardo';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 23px;
+                            line-height: 29px;
+                            color: $blue-bg-title-text;
+                            text-align: center;
+
+                            padding-top: 10px;
+                        }
+                    }
+                    .num-text{
+                        font-family: 'Cardo';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 34px;
+
+                        color: $blue-bg-title-text;
+                        width: 236px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

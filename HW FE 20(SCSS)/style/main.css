@@ -1,0 +1,763 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #FFFFFF;
+}
+
+.button-yellow {
+  background-color: #FFCA42;
+  cursor: pointer;
+  width: 222px;
+  height: 66px;
+  border-radius: 2px;
+  border: none;
+  color: #1B3764;
+  text-align: center;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.57px;
+  text-transform: capitalize;
+}
+
+.big-circle {
+  background-color: #FFCA42;
+  color: #1B3764;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+}
+
+.medium-circle {
+  background-color: #FFCA42;
+  color: #1B3764;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: none;
+}
+
+.small-circle {
+  background-color: #FFCA42;
+  color: #1B3764;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  border: none;
+}
+
+.container {
+  margin: 0 auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1440px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 990px) {
+  .container {
+    width: 990px;
+  }
+}
+@media (max-width: 990px) {
+  .container {
+    width: 770px;
+  }
+}
+@media (max-width: 770px) {
+  .container {
+    width: 570px;
+  }
+}
+@media (max-width: 570px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.big-line {
+  background-color: #FFCA42;
+  width: 50px;
+  height: 3px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #1B3764;
+  align-items: center;
+  padding: 22px 70px;
+}
+.nav .logo-link {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+.nav .logo-link .links {
+  display: flex;
+  gap: 10px;
+}
+.nav .logo-link .burger-menu {
+  display: none;
+}
+@media (max-width: 1200px) and (min-width: 990px) {
+  .nav .logo-link .burger-menu {
+    display: flex;
+  }
+}
+.nav .logo-link .burger-menu img {
+  width: 30px;
+  height: 30px;
+  filter: invert(100%);
+}
+@media (max-width: 990px) {
+  .nav .logo-link .burger-menu {
+    display: block;
+    margin-right: 60px;
+    cursor: pointer;
+  }
+}
+.nav .menu {
+  margin-left: 260px;
+  margin-right: 107px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1200px) and (min-width: 990px) {
+  .nav .menu {
+    display: none;
+  }
+}
+.nav .menu .a {
+  display: flex;
+  gap: 50px;
+}
+.nav .menu .a a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.17px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.nav .menu .a a span {
+  color: #FFCA42;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.17px;
+}
+
+.section1-body .section1-content {
+  width: 100%;
+  background-color: #1B3764;
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section1-body .section1-content .welcome {
+  padding: 0px 93px;
+}
+.section1-body .section1-content .welcome .first-text {
+  display: flex;
+  align-items: center;
+}
+.section1-body .section1-content .welcome .first-text .small-line {
+  display: inline-flex;
+  background-color: #FFCA42;
+  width: 35px;
+  height: 2px;
+  margin-right: 15px;
+}
+.section1-body .section1-content .welcome .first-text h3 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+}
+.section1-body .section1-content .welcome h2 {
+  margin-top: 10px;
+  font-size: 62px;
+  line-height: 78px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+  letter-spacing: 1.3px;
+}
+.section1-body .section1-content .welcome p {
+  margin-top: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #B4C7E7;
+}
+.section1-body .section1-content .welcome .btn-text {
+  display: flex;
+  align-items: center;
+  gap: 51px;
+  margin-top: 42px;
+}
+.section1-body .section1-content .welcome .btn-text div {
+  border-bottom: 1px solid #FFFFFF;
+}
+.section1-body .section1-content .welcome .btn-text div p {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0.38px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.section1-body .section1-content .welcome .info-about-book {
+  display: flex;
+  margin-top: 47px;
+  gap: 60px;
+}
+.section1-body .section1-content .welcome .info-about-book div div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.section1-body .section1-content .welcome .info-about-book div h4 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.48px;
+}
+.section1-body .section1-content .welcome .info-about-book div p {
+  color: #B4C7E7;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  margin-top: 12px;
+  margin-left: 25px;
+}
+.section1-body .section1-content .welcome-img {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2-body {
+  width: 100%;
+  background-color: #F5F5F5;
+}
+.section2-body .section2-content {
+  padding: 126px 80px 150px 80px;
+}
+.section2-body .section2-content .title-section2 {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+.section2-body .section2-content .title-section2 h1 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1B3764;
+}
+.section2-body .section2-content .title-section2 div {
+  margin: 0 auto;
+  margin-top: 28px;
+  background-color: #FFCA42;
+  width: 50px;
+  height: 3px;
+}
+.section2-body .section2-content .example-books {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+.section2-body .section2-content .example-books .first-book {
+  display: flex;
+}
+.section2-body .section2-content .example-books .first-book .text-book {
+  margin-left: 30px;
+  margin-top: 60px;
+}
+.section2-body .section2-content .example-books .first-book .text-book h2 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.32px;
+  color: #1B3764;
+}
+.section2-body .section2-content .example-books .first-book .text-book h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 33px;
+  color: #FFCA42;
+}
+.section2-body .section2-content .example-books .first-book .text-book p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #969AA0;
+}
+.section2-body .section2-content .example-books .first-book .text-book div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.section2-body .section2-content .example-books .first-book .text-book div p {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1B3764;
+  margin-left: 10px;
+}
+.section2-body .section2-content .example-books .second-book {
+  display: flex;
+}
+.section2-body .section2-content .example-books .second-book .text-book {
+  margin-left: 30px;
+  margin-top: 60px;
+}
+.section2-body .section2-content .example-books .second-book .text-book h2 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.32px;
+  color: #1B3764;
+}
+.section2-body .section2-content .example-books .second-book .text-book h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 33px;
+  color: #FFCA42;
+}
+.section2-body .section2-content .example-books .second-book .text-book p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #969AA0;
+}
+.section2-body .section2-content .example-books .second-book .text-book div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.section2-body .section2-content .example-books .second-book .text-book div p {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1B3764;
+  margin-left: 10px;
+}
+
+.section3-body {
+  background-color: #e7f1ff;
+}
+.section3-body .section3-content {
+  display: flex;
+  padding: 150px 90px 140px 40px;
+}
+.section3-body .section3-content .author-info {
+  margin-left: 150px;
+  margin-top: 70px;
+}
+.section3-body .section3-content .author-info h2 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: #1B3764;
+}
+.section3-body .section3-content .author-info .big-line {
+  margin-top: 23px;
+  margin-bottom: 33px;
+}
+.section3-body .section3-content .author-info p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 34px;
+  color: #969AA0;
+}
+.section3-body .section3-content .author-info .book-points {
+  display: flex;
+  margin-top: 34px;
+  margin-bottom: 55px;
+}
+.section3-body .section3-content .author-info .book-points .point {
+  padding-top: 10px;
+}
+.section3-body .section3-content .author-info .book-points .point h2 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 77px;
+  color: #1B3764;
+}
+.section3-body .section3-content .author-info .book-points .point p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #969AA0;
+}
+.section3-body .section3-content .author-info .book-points #point1 {
+  border-right: 1px solid #FFCA42;
+  padding-right: 30px;
+}
+.section3-body .section3-content .author-info .book-points #point2 {
+  margin-left: 37px;
+  margin-right: 55px;
+}
+.section3-body .section3-content .author-info .book-points #point3 {
+  border-left: 1px solid #FFCA42;
+  padding-left: 37px;
+}
+.section3-body .section3-content .author-info .qrcode {
+  background-color: #1B3764;
+  display: flex;
+  padding: 15px 20px;
+  gap: 40px;
+  align-items: center;
+  width: 484px;
+}
+.section3-body .section3-content .author-info .qrcode .qrcode-text p {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.19px;
+  color: #B4C7E7;
+}
+.section3-body .section3-content .author-info .qrcode .qrcode-text #name {
+  color: #FFCA42;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.section4-body {
+  background-color: #F5F5F5;
+}
+.section4-body .section4-content {
+  padding: 126px 76px;
+}
+.section4-body .section4-content .title-section4 h1 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1B3764;
+}
+.section4-body .section4-content .title-section4 .big-line {
+  margin: 0 auto;
+  margin-top: 23px;
+  margin-bottom: 55px;
+}
+.section4-body .section4-content .partners {
+  display: flex;
+  gap: 60px;
+}
+.section4-body .section4-content .partners .partner {
+  text-align: center;
+}
+.section4-body .section4-content .partners .partner h3 {
+  margin-top: 22px;
+  margin-bottom: 16px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #1B3764;
+}
+.section4-body .section4-content .partners .partner p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #969AA0;
+}
+
+.section5-body {
+  background-color: #1B3764;
+}
+.section5-body .section5-content {
+  padding: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section5-body .section5-content .section5-text h2 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.section5-body .section5-content .section5-text .big-line {
+  margin-top: 24px;
+  margin-bottom: 27px;
+}
+.section5-body .section5-content .section5-text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  width: 540px;
+  color: #969AA0;
+}
+
+.section6-body {
+  background-color: #F5F5F5;
+}
+.section6-body .section6-content {
+  padding: 136px 0px 126px 70px;
+}
+.section6-body .section6-content h1 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1B3764;
+  text-align: center;
+}
+.section6-body .section6-content .big-line {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.section6-body .section6-content .study {
+  display: flex;
+  align-items: center;
+}
+.section6-body .section6-content .study .steps {
+  display: grid;
+  grid-template-columns: repeat(2, 303px);
+  grid-template-rows: repeat(2, 272px);
+  gap: 30px;
+  margin-right: 90px;
+}
+.section6-body .section6-content .study .steps .step {
+  padding: 30px 0px 26px 30px;
+  background-color: #e7f1ff;
+}
+.section6-body .section6-content .study .steps .step .big-circle .num {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 29px;
+  color: #1B3764;
+  text-align: center;
+  padding-top: 10px;
+}
+.section6-body .section6-content .study .steps .step .num-text {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #1B3764;
+  width: 236px;
+  margin-top: 30px;
+}
+
+.section7-body {
+  background-color: #e7f1ff;
+}
+.section7-body .section8-content {
+  padding: 126px 70px 150px 70px;
+}
+.section7-body .section8-content h1 {
+  text-align: center;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: #1B3764;
+}
+.section7-body .section8-content .big-line {
+  margin: 0 auto;
+  margin-top: 23px;
+  margin-bottom: 70px;
+}
+.section7-body .section8-content .people {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.section7-body .section8-content .people .human {
+  background-color: white;
+  width: 420px;
+}
+.section7-body .section8-content .people .human .human-text {
+  padding: 0px 30px 30px 30px;
+}
+.section7-body .section8-content .people .human .human-text h4 {
+  margin-top: 25px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.24px;
+  color: #1B3764;
+}
+.section7-body .section8-content .people .human .human-text p {
+  margin-top: 19px;
+  margin-bottom: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #969AA0;
+}
+.section7-body .section8-content .people .human .human-text h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1B3764;
+  text-align: end;
+}
+
+.footer-body {
+  width: 100%;
+  background-color: #1B3764;
+}
+.footer-body .footer-content {
+  padding: 92px 140px 60px 70px;
+  display: flex;
+  gap: 90px;
+}
+.footer-body .footer-content h3 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.384px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.footer-body .footer-content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+  letter-spacing: 0.18px;
+  color: #B4C7E7;
+}
+.footer-body .footer-content .sosial-media .footer-links {
+  margin-top: 21px;
+  display: flex;
+  gap: 10px;
+}
+.footer-body .footer-content .explore .ex {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  gap: 5px;
+}
+.footer-body .footer-content .explore .ex p {
+  margin-left: 5px;
+}
+.footer-body .footer-content .utility-pages .up {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  gap: 5px;
+}
+.footer-body .footer-content .utility-pages .up p {
+  margin-left: 5px;
+}
+.footer-body .footer-content .keep-in-touch span {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: #FFFFFF;
+}
+.footer-body .footer-content .keep-in-touch .address {
+  display: flex;
+  gap: 28px;
+}
+.footer-body .footer-content .keep-in-touch .mail {
+  margin-top: 28px;
+  margin-bottom: 28px;
+  display: flex;
+  gap: 54px;
+}
+.footer-body .footer-content .keep-in-touch .phone {
+  display: flex;
+  gap: 44px;
+}/*# sourceMappingURL=main.css.map */

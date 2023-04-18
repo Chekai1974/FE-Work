@@ -1,0 +1,19 @@
+.container{
+    margin: 0 auto;
+    @include x-large{
+        width: 1440px;
+    };
+    @include big-screen{
+        width: 990px;
+    };
+    @include medium-screen{
+        width: 770px;
+   
+    };
+    @include small-screen{
+        width: 570px;
+    };
+    @include x-small{
+        width: 100%;
+    };
+}

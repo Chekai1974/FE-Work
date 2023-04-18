@@ -1,0 +1,74 @@
+
+    // width: 100%;
+    // background-color: $blue-bg-title-text;
+    // @include big-screen{
+    //     .menu{
+    //         display: none;
+    //     }
+    // }
+    .nav{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: $blue-bg-title-text;
+        align-items: center;
+        padding: 22px 70px;
+        .logo-link{
+            display: flex;
+            align-items: center;
+            gap: 38px;
+            .links{
+                display: flex;
+                gap: 10px;
+            }
+            .burger-menu{
+                @include big-screen {
+                    display: flex;
+                }
+                display: none;
+                img{
+                    width: 30px;
+                    height: 30px;
+                    filter: invert(100%);
+                }
+                @include medium-screen{
+                    display: block;
+                    margin-right: 60px;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+        .menu{
+            @include big-screen{
+                display: none;
+            }
+            margin-left: 260px;
+            margin-right: 107px;
+            display: flex;
+            align-items: center;
+            .a{
+                display: flex;
+                gap: 50px;
+                a{
+                    span{
+                        color: $yellow-text-btn;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 26px;
+                        letter-spacing: 0.17px;
+                    }
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 26px;
+                    letter-spacing: 0.17px;
+                    text-decoration: none;
+                    color: $default-text;
+                }
+            }
+        }
+    }

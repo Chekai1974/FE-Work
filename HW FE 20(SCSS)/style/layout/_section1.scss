@@ -1,0 +1,117 @@
+  .section1-body{
+    .section1-content {
+        width: 100%;
+        background-color: $blue-bg-title-text;
+        padding: 100px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .welcome {
+            padding: 0px 93px;
+            .first-text {
+                display: flex;
+                align-items: center;
+                .small-line {
+                    display: inline-flex;
+                    background-color: $yellow-text-btn;
+                    width: 35px;
+                    height: 2px;
+                    margin-right: 15px;
+                }
+    
+                h3 {
+                    font-family: 'Cardo';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 36px;
+                    letter-spacing: 1.2px;
+                    text-transform: capitalize;
+                }
+            }
+    
+            h2 {
+                margin-top: 10px;
+                font-size: 62px;
+                line-height: 78px;
+                font-family: 'Cardo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 64px;
+                line-height: 78px;
+
+                letter-spacing: 1.3px;
+            }
+    
+            p { 
+                margin-top: 24px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: $light-blue-text;
+            }
+    
+            .btn-text {
+                display: flex;
+                align-items: center;
+                gap: 51px;
+                margin-top: 42px;
+                div {
+                    p{
+                        font-family: 'Cardo';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 19px;
+                        line-height: 30px;
+                        letter-spacing: 0.38px;
+                        text-transform: capitalize;
+                        color: $default-text;
+                    }
+                    border-bottom: 1px solid $default-text;
+                }
+            }
+    
+            .info-about-book {
+                display: flex;
+                margin-top: 47px;
+                gap: 60px;
+                div {
+                    div {
+                        display: flex;
+                        gap: 10px;
+                        align-items: center;
+                    }
+    
+                    h4 {
+                        font-family: 'Cardo';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 29px;
+                        letter-spacing: 0.48px;
+                    }
+    
+                    p {
+                        color: $light-blue-text;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 27px;
+                        margin-top: 12px;
+                        margin-left: 25px;
+                    }
+                }
+            }
+    
+        }
+    
+        .welcome-img {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

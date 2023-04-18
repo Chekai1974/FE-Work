@@ -1,0 +1,35 @@
+.section5-body{
+    // width: 100%;
+    background-color: $blue-bg-title-text;
+    .section5-content{
+        padding: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .section5-text{
+            h2{
+                font-family: 'Cardo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 45px;
+                line-height: 54px;
+                text-transform: capitalize;
+
+                color: $default-text;
+            }
+            .big-line{
+                margin-top: 24px;
+                margin-bottom: 27px;
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 19px;
+                line-height: 28px;
+                width: 540px;
+                color: $silver-text;
+            }
+        }
+    }
+}
