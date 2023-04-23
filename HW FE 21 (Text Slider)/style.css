@@ -1,0 +1,52 @@
+#section{
+    display: flex;
+}
+.container{
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 900px;
+    height: 500px;
+    overflow: hidden;
+}
+.cards{
+    padding: 40px;
+    display: inline-grid;
+    grid-template-columns: repeat(100,minmax(250px, 251px));
+    grid-template-rows: repeat(1, minmax(50px, 100px));
+    gap: 40px;
+    transition: left 0.5s ease-in-out;
+}
+.divs{
+    overflow: auto;
+    border: 1px solid black;
+    
+}
+.divs p{
+    font-size: 14px;
+    color: chocolate;
+}
+.main-card{
+    display: block;
+    align-items: center;
+    justify-items: center;
+}
+.main-card p{
+    font-size: 22px;
+    color: rgb(255, 89, 0);
+}
+.main-card h2{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#next{
+    position: absolute;
+    margin-left: 1430px;
+    margin-top: 210px;
+}
+#back {
+    position: absolute;
+    margin-left: 1430px;
+    margin-top: 250px;
+}
